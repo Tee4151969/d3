@@ -34,8 +34,8 @@ var svg = d3.select("body").append("svg")
 
  // get the data
   
-  d3.csv("https://github.com/Tee4151969/d3/blob/master/sales.csv", function(error, data) {
- alert(data)
+  d3.csv("sales.csv", function(error, data) {
+ 
    if (error) throw error;
 
   // format the data
